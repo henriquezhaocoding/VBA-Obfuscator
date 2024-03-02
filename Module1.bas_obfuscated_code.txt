@@ -1,0 +1,12 @@
+Module1
+Sub Macro1()
+
+Dim 8dTMFXagGeqRsqbJ As Range
+
+Set 8dTMFXagGeqRsqbJ = Selection
+
+For Each cell In 8dTMFXagGeqRsqbJ
+    cell = cell + 4
+Next cell
+
+End Sub
